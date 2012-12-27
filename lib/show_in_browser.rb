@@ -1,7 +1,7 @@
 class ShowInBrowser
   class << self
 
-    def puts(html)
+    def show(html)
       escaped_html = shell_escape(html)
       `f="/tmp/browser.html"
        rm $f
