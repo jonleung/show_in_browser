@@ -1,6 +1,11 @@
 # Show In Browser 
 show_in_browser is a very simple gem that opens an html string inside your default html application (you will need to set a browser to be the default application that opens up `.html` files.
 
+## Installation
+```ruby
+gem install show_in_browser
+```
+
 ## Usage
 
 ```ruby
